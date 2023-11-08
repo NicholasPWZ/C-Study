@@ -1,0 +1,14 @@
+C:\Users\WEBGLOBAL87\Documents\vscode\CS\bin\Debug\net7.0\CS.exe
+C:\Users\WEBGLOBAL87\Documents\vscode\CS\bin\Debug\net7.0\CS.deps.json
+C:\Users\WEBGLOBAL87\Documents\vscode\CS\bin\Debug\net7.0\CS.runtimeconfig.json
+C:\Users\WEBGLOBAL87\Documents\vscode\CS\bin\Debug\net7.0\CS.dll
+C:\Users\WEBGLOBAL87\Documents\vscode\CS\bin\Debug\net7.0\CS.pdb
+C:\Users\WEBGLOBAL87\Documents\vscode\CS\obj\Debug\net7.0\CS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\WEBGLOBAL87\Documents\vscode\CS\obj\Debug\net7.0\CS.AssemblyInfoInputs.cache
+C:\Users\WEBGLOBAL87\Documents\vscode\CS\obj\Debug\net7.0\CS.AssemblyInfo.cs
+C:\Users\WEBGLOBAL87\Documents\vscode\CS\obj\Debug\net7.0\CS.csproj.CoreCompileInputs.cache
+C:\Users\WEBGLOBAL87\Documents\vscode\CS\obj\Debug\net7.0\CS.dll
+C:\Users\WEBGLOBAL87\Documents\vscode\CS\obj\Debug\net7.0\refint\CS.dll
+C:\Users\WEBGLOBAL87\Documents\vscode\CS\obj\Debug\net7.0\CS.pdb
+C:\Users\WEBGLOBAL87\Documents\vscode\CS\obj\Debug\net7.0\CS.genruntimeconfig.cache
+C:\Users\WEBGLOBAL87\Documents\vscode\CS\obj\Debug\net7.0\ref\CS.dll

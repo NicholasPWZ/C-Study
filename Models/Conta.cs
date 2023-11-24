@@ -10,6 +10,6 @@ namespace CS.Models
         public string Cpf { get; set; }
         public int Account { get; set; }
         public int Agency { get; set; } 
-        public int Budget { get; set; } 
+        public int Balance { get; set; } 
     }
 }

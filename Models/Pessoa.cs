@@ -8,34 +8,51 @@ namespace CS.Models
 {
     public class Pessoa
     {
-       
+        public Pessoa()
+        {
+
+        }
+       public Pessoa(string nome, string sobrenome)
+       {
+        Nome = nome;
+        
+       }
        private string _nome = "";
        public string Nome 
-       { get{
-        return _nome.ToUpper();
-       } set{
-        if(value == ""){
-            throw new ArgumentException("Invalido");
-        }
-        _nome = value;
-       } }   
+            { 
+                get => _nome.ToUpper();
+
+                set{
+                if(value == ""){
+                    throw new ArgumentException("Invalido");
+            
+            }
+            _nome = value;
+       } 
+       }   
        
        
-       private int _idade;
-       public int Idade { 
-        get{
-            return _idade;
-       } set{
-        if(value < 0 || value > 150){
-            throw new ArgumentException("Idade inválida");
+       private string _idade = "";
+       public string Idade { 
+        get => _idade;
+       
+       
+       set{
+        
+        if(!int.TryParse(value,out int num)){ 
+         throw new ArgumentException("Idade inválida");
+        
         }
+       
         _idade = value;
-       } }
+       }
+        }
        
        private string _birthday = "";
-       public string Birthday { get{
-        return _birthday;
-       } 
+       public string Birthday { 
+        
+        get =>  _birthday;
+       
        
        set{
         string formato = "dd-MM-yyyy";
@@ -48,9 +65,10 @@ namespace CS.Models
        
        private string _cpf = "";
        public string Cpf { 
-        get{
-        return _cpf;
-       } 
+        
+        get => _cpf;
+       
+       
        set{
         if(long.TryParse(value,out _) is false){
             Console.WriteLine(int.TryParse(value,out _));
